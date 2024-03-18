@@ -1,0 +1,44 @@
+//örnek kullanımlar
+
+
+//string, int, word, char, boolean, float, long, array
+// long, short, int unsigned long, int unsigned short
+int lenPin = 13;
+bool running = false;
+char karakter = 'A';
+char[15] metin = "fatmanur";
+string metin[] = {"dizi1", "dizi2", "dizi3"};
+float z, sayi;
+float sensorDegeri = 1.17;
+int x = 20 ,y;
+char[10] metin = "nur";
+float degisken;
+degisken = metin;
+degisken / 2.0;
+(float)x / 2.0;
+
+String stringOne = String('a');
+int sayi = 3;
+stringOne + sayi;
+// string indexOf, lenght(), trim(),replace()
+String stringTwo = String('fatmanur');
+stringTwo.indexOf("t");
+stringTwo.lenght();//8
+stringTwo.trim(6);
+stringTwo.replace("a","y");
+//startswith(), endswith()
+stringTwo.startwith(2);
+stringTwo.endswith(5);
+//substring()
+
+
+void setup() {
+pinMode(lenPin, INPUT);
+pinMode(lenPin, OUTPUT);
+
+}
+
+void loop() {
+ 
+  
+}
